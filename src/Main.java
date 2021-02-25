@@ -75,6 +75,7 @@ public class Main {
 				&&kode1.length==7));
 		kode = String.valueOf(kode1);
 		scan.nextLine();
+		
 		do {
 			
 			System.out.print("Input nama karyawan [>=3]:");
@@ -242,8 +243,10 @@ public class Main {
 					&&kode1[6]>='0'&&kode1[6]<='9'
 					&&kode1.length==7));
 			kode = String.valueOf(kode1);
+			scan.nextLine();
+			
 			do {
-				scan.nextLine();
+				
 				System.out.print("Input nama karyawan [>=3]:");
 				nama = scan.nextLine();
 				
